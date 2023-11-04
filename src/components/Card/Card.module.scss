@@ -1,0 +1,82 @@
+.wrap_big {
+  width: 100%;
+  max-width: 1060px;
+  height: 180px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 5px 5px 25px 0px rgba(121, 121, 121, 0.15);
+  border-radius: 20px;
+  margin-top: 40px;
+  padding: 30px 60px;
+
+  .text_big {
+    width: 292px;
+    color: #272727;
+    font-family: Mont;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+
+  .vector_wrap {
+    display: flex;
+    align-items: center;
+
+    .vector_1 {
+      width: 209px;
+      height: 157px;
+    }
+    .vector_2 {
+      width: 75px;
+      height: 55px;
+      transform: scale(-1, 1);
+      margin-left: -25px;
+    }
+    .vector_3 {
+      width: 125px;
+      height: 93px;
+    }
+  }
+}
+
+.wrap_small {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1060px;
+
+  height: 136px;
+  background-image: url('../../img/BG.svg');
+  border-radius: 20px;
+  background-color: #fff3dd;
+
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+
+  .text_small {
+    color: #272727;
+    font-family: Mont;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    margin: 20px;
+    width: 177px;
+
+    .gray_text {
+      color: #9f9f9f;
+    }
+  }
+
+  .profile_vector {
+    margin-right: 15px;
+    width: 149px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
